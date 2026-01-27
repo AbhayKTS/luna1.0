@@ -1,0 +1,17 @@
+speechrecognition
+pyttsx3
+pyaudio
+requests
+# Optional ML intent classifier
+scikit-learn
+# Optional LLM chat (uncomment to install heavy models)
+# transformers
+# accelerate
+# sentencepiece
+# llama-cpp-python
+# Optional NLP/tray (enable for advanced features)
+# spacy
+# pystray
+# pillow
+# Optional: openai
+# Optional helper: python-dotenv

@@ -1,0 +1,40 @@
+{
+  "usage_counts": {
+    "open_app": 31,
+    "search": 5,
+    "chat": 70,
+    "date": 1
+  },
+  "favorite_topics": {
+    "youtube": 2,
+    "nusrat": 1,
+    "fateh": 1,
+    "university": 1
+  },
+  "favorite_apps": {
+    "chrome": 4,
+    "vs code": 1,
+    "youtube": 10,
+    "whatsapp": 3,
+    "spotify": 5,
+    "ho rahi hai": 1,
+    "new tab in": 1,
+    "new tab": 1,
+    "drive": 1,
+    "yt": 1,
+    "youtube chrome search your call": 2,
+    "ghost of sushima": 1
+  },
+  "default_city": "London",
+  "chrome_profile_name": "abhay_k",
+  "overlay_x": 747,
+  "overlay_y": 0,
+  "tts_volume": 0.7,
+  "tts_enabled": true,
+  "tts_backend": "sapi",
+  "tts_rate": 0.8,
+  "tts_style": "ethereal",
+  "soft_mode": true,
+  "suggest_speak": false,
+  "suggest_show": false
+}
