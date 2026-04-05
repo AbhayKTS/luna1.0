@@ -2491,3 +2491,6 @@ __version__ = '1.0.0-alpha'
 
 class ConfigManager:
     def __init__(self): self.config = {}
+
+from logging.handlers import RotatingFileHandler
+def setup_logging(): pass
