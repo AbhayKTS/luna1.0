@@ -2484,3 +2484,7 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"[FATAL] {e}")
         raise
+
+import logging
+logger = logging.getLogger(__name__)
+__version__ = '1.0.0-alpha'
