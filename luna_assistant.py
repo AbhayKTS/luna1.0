@@ -2488,3 +2488,6 @@ if __name__ == '__main__':
 import logging
 logger = logging.getLogger(__name__)
 __version__ = '1.0.0-alpha'
+
+class ConfigManager:
+    def __init__(self): self.config = {}
