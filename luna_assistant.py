@@ -2497,3 +2497,6 @@ def setup_logging(): pass
 
 class ResponseCache:
     def __init__(self): self.cache = {}
+
+class DatabaseManager:
+    def __init__(self): self.db_path = ''
