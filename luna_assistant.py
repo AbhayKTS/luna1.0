@@ -2494,3 +2494,6 @@ class ConfigManager:
 
 from logging.handlers import RotatingFileHandler
 def setup_logging(): pass
+
+class ResponseCache:
+    def __init__(self): self.cache = {}
