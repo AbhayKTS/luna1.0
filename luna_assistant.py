@@ -2509,3 +2509,6 @@ class VoiceProfileManager:
 
 class AudioMetrics:
     def __init__(self): self.noise_level = 0
+
+class CommandValidator:
+    def __init__(self): self.valid_commands = set()
