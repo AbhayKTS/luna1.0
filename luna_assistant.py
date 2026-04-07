@@ -2503,3 +2503,6 @@ class DatabaseManager:
 
 class EnhancedSpeechEngine:
     def __init__(self): self.recognizer = sr.Recognizer()
+
+class VoiceProfileManager:
+    def __init__(self): self.profiles = {}
