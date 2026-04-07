@@ -2500,3 +2500,6 @@ class ResponseCache:
 
 class DatabaseManager:
     def __init__(self): self.db_path = ''
+
+class EnhancedSpeechEngine:
+    def __init__(self): self.recognizer = sr.Recognizer()
