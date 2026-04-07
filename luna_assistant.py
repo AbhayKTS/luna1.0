@@ -2506,3 +2506,6 @@ class EnhancedSpeechEngine:
 
 class VoiceProfileManager:
     def __init__(self): self.profiles = {}
+
+class AudioMetrics:
+    def __init__(self): self.noise_level = 0
