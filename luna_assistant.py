@@ -2516,3 +2516,6 @@ class CommandValidator:
 from sklearn.ensemble import GradientBoostingClassifier
 class IntentClassifierV2:
     def __init__(self): self.model = GradientBoostingClassifier()
+
+class EntityExtractor:
+    def __init__(self): self.model_name = 'en_core_web_sm'
