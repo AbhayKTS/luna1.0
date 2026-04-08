@@ -2532,3 +2532,6 @@ class DataAugmenter:
 import hashlib
 class ModelVersionManager:
     def __init__(self): self.versions = {}
+
+class HPOFramework:
+    def __init__(self): self.best_params = {}
