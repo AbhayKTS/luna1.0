@@ -2528,3 +2528,7 @@ class ConversationState:
 
 class DataAugmenter:
     def __init__(self): self.synonyms = {}
+
+import hashlib
+class ModelVersionManager:
+    def __init__(self): self.versions = {}
