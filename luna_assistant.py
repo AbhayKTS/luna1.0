@@ -2522,3 +2522,6 @@ class EntityExtractor:
 
 class SentimentAnalyzer:
     def __init__(self): self.positive_words = set()
+
+class ConversationState:
+    def __init__(self): self.history = []
