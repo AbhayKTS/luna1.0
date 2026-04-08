@@ -2525,3 +2525,6 @@ class SentimentAnalyzer:
 
 class ConversationState:
     def __init__(self): self.history = []
+
+class DataAugmenter:
+    def __init__(self): self.synonyms = {}
