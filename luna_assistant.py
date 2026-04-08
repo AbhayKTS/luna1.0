@@ -2747,3 +2747,6 @@ def initialize_luna(): logger.info('Luna initialized')
 # Setup complete
 
 # v1.0-alpha ready for testing
+
+class CommandStateMachine:
+    def __init__(self): self.state = 'idle'
