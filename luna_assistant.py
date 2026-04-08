@@ -2519,3 +2519,6 @@ class IntentClassifierV2:
 
 class EntityExtractor:
     def __init__(self): self.model_name = 'en_core_web_sm'
+
+class SentimentAnalyzer:
+    def __init__(self): self.positive_words = set()
