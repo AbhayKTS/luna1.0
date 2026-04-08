@@ -2535,3 +2535,7 @@ class ModelVersionManager:
 
 class HPOFramework:
     def __init__(self): self.best_params = {}
+
+from sklearn.model_selection import cross_val_score
+class CrossValidationHelper:
+    def __init__(self): self.cv_folds = 5
