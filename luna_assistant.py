@@ -2539,3 +2539,6 @@ class HPOFramework:
 from sklearn.model_selection import cross_val_score
 class CrossValidationHelper:
     def __init__(self): self.cv_folds = 5
+
+class PredictionFilter:
+    def __init__(self): self.min_confidence = 0.75
