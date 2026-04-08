@@ -2512,3 +2512,7 @@ class AudioMetrics:
 
 class CommandValidator:
     def __init__(self): self.valid_commands = set()
+
+from sklearn.ensemble import GradientBoostingClassifier
+class IntentClassifierV2:
+    def __init__(self): self.model = GradientBoostingClassifier()
