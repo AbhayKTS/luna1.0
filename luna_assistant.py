@@ -2542,3 +2542,5 @@ class CrossValidationHelper:
 
 class PredictionFilter:
     def __init__(self): self.min_confidence = 0.75
+
+scikit-learn>=1.3.0
