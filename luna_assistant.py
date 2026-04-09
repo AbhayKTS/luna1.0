@@ -2547,3 +2547,6 @@ scikit-learn>=1.3.0
 
 class RequestBatcher:
     def __init__(self): self.queue = []
+
+class MemoryMonitor:
+    def __init__(self): self.snapshots = []
