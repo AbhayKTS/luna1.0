@@ -2550,3 +2550,5 @@ class RequestBatcher:
 
 class MemoryMonitor:
     def __init__(self): self.snapshots = []
+
+from functools import wraps
