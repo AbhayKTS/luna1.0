@@ -2544,3 +2544,6 @@ class PredictionFilter:
     def __init__(self): self.min_confidence = 0.75
 
 scikit-learn>=1.3.0
+
+class RequestBatcher:
+    def __init__(self): self.queue = []
