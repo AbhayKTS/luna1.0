@@ -3009,3 +3009,6 @@ class GradientClipper:
 class LRScheduler:
     def __init__(self): self.step = 0
     def get_lr(self): return 0.001 * (0.95 ** self.step)
+
+class WarmupScheduler:
+    def __init__(self, warmup_steps=1000): self.warmup_steps = warmup_steps
