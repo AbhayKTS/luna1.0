@@ -3068,3 +3068,6 @@ class MetricLearner:
 
 class ContrastiveLearner:
     def __init__(self): self.temperature = 0.07
+
+class SelfSupervisedLearner:
+    def create_views(self, x): return [x, x]
