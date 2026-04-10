@@ -3016,3 +3016,6 @@ class WarmupScheduler:
 class ExponentialMovingAverage:
     def __init__(self, decay=0.999): self.decay = decay
     def update(self, value): pass
+
+class GradientAccumulator:
+    def __init__(self, accumulation_steps=4): self.steps = accumulation_steps
