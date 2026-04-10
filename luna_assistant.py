@@ -2561,3 +2561,6 @@ class NotificationManager:
 
 class PluginManager:
     def __init__(self): self.plugins = {}
+
+class EventBus:
+    def __init__(self): self.subscribers = {}
