@@ -3056,3 +3056,6 @@ class QuantizationEngine:
 
 class ModelPruner:
     def prune(self, model, sparsity=0.5): pass
+
+class KGEmbedding:
+    def __init__(self, embedding_dim=256): self.dim = embedding_dim
