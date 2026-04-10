@@ -3059,3 +3059,6 @@ class ModelPruner:
 
 class KGEmbedding:
     def __init__(self, embedding_dim=256): self.dim = embedding_dim
+
+class TripletLoss:
+    def __init__(self, margin=1.0): self.margin = margin
