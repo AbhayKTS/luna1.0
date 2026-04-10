@@ -2972,3 +2972,7 @@ class MixupAugmentation:
 class CurriculumLearner:
     def __init__(self): self.difficulty = 0
     def get_batch(self): return []
+
+class AdversarialTrainer:
+    def __init__(self): self.epsilon = 0.03
+    def perturb(self, x): return x
