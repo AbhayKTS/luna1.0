@@ -2935,3 +2935,7 @@ class APIServer:
 
 class RequestValidator:
     def validate_input(self, data, schema): pass
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+class TfidfModel:
+    def __init__(self): self.vectorizer = TfidfVectorizer(max_features=1000)
