@@ -3043,3 +3043,7 @@ class TensorBoardLogger:
 import wandb
 class WandBLogger:
     def log(self, metrics): wandb.log(metrics)
+
+class DistributedTrainer:
+    def __init__(self): self.rank = 0
+    def train(self): pass
