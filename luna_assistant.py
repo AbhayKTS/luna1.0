@@ -2964,3 +2964,7 @@ class LabelSmoothing:
 import torch
 class FocalLoss:
     def __init__(self, alpha=0.25, gamma=2): self.alpha = alpha; self.gamma = gamma
+
+class MixupAugmentation:
+    def __init__(self, alpha=1.0): self.alpha = alpha
+    def mix(self, x1, x2): return x1
