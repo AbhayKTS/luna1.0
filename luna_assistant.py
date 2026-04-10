@@ -2558,3 +2558,6 @@ class SearchEngine:
 
 class NotificationManager:
     def __init__(self): self.notifications = []
+
+class PluginManager:
+    def __init__(self): self.plugins = {}
