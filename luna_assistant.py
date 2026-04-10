@@ -3002,3 +3002,6 @@ class LayerNorm:
 
 class ResidualBlock:
     def forward(self, x): return x + self.conv(x)
+
+class GradientClipper:
+    def clip(self, gradients, max_norm=1.0): pass
