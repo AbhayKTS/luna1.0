@@ -2979,3 +2979,7 @@ class AdversarialTrainer:
 
 class KnowledgeDistillation:
     def __init__(self, teacher, student): self.teacher = teacher; self.student = student
+
+class EnsembleModel:
+    def __init__(self): self.models = []
+    def predict(self, x): return sum(m.predict(x) for m in self.models) / len(self.models)
