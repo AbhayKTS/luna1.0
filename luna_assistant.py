@@ -3031,3 +3031,7 @@ class EarlyStopping:
 
 class MetricTracker:
     def __init__(self): self.metrics = {}; self.history = []
+
+class CheckpointManager:
+    def save(self, model, epoch): pass
+    def restore(self): pass
