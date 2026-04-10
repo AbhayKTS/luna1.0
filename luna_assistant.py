@@ -3065,3 +3065,6 @@ class TripletLoss:
 
 class MetricLearner:
     def learn_distance_metric(self, X, y): pass
+
+class ContrastiveLearner:
+    def __init__(self): self.temperature = 0.07
