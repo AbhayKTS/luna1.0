@@ -3053,3 +3053,6 @@ class DataParallelModel:
 
 class QuantizationEngine:
     def quantize(self, model, bits=8): pass
+
+class ModelPruner:
+    def prune(self, model, sparsity=0.5): pass
