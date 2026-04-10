@@ -2555,3 +2555,6 @@ from functools import wraps
 
 class SearchEngine:
     def __init__(self): self.index = {}
+
+class NotificationManager:
+    def __init__(self): self.notifications = []
