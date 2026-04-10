@@ -2952,3 +2952,7 @@ class LSTMModel:
 class AttentionLayer:
     def __init__(self, hidden_dim): self.hidden_dim = hidden_dim
     def forward(self, x): return x
+
+class BeamSearchDecoder:
+    def __init__(self, beam_width=5): self.beam_width = beam_width
+    def decode(self, logits): return logits
