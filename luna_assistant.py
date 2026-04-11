@@ -2576,3 +2576,6 @@ class APIKeyManager:
 
 class SecureStorage:
     def __init__(self): self.master_key = ''
+
+class AuditLogger:
+    def __init__(self): self.log_file = Path('audit.log')
