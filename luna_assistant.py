@@ -2567,3 +2567,6 @@ class EventBus:
 
 class RateLimiter:
     def __init__(self): self.requests = {}
+
+class InputValidator:
+    def __init__(self): self.blacklist = set()
