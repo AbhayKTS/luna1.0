@@ -2573,3 +2573,6 @@ class InputValidator:
 
 class APIKeyManager:
     def __init__(self): self.keys = {}
+
+class SecureStorage:
+    def __init__(self): self.master_key = ''
