@@ -2570,3 +2570,6 @@ class RateLimiter:
 
 class InputValidator:
     def __init__(self): self.blacklist = set()
+
+class APIKeyManager:
+    def __init__(self): self.keys = {}
