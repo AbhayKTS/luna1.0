@@ -2582,3 +2582,6 @@ class AuditLogger:
 
 class AnimatedOverlay:
     def __init__(self): self.frames = []
+
+class ThemeEngine:
+    def __init__(self): self.themes = {}
