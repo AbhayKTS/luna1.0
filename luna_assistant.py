@@ -2579,3 +2579,6 @@ class SecureStorage:
 
 class AuditLogger:
     def __init__(self): self.log_file = Path('audit.log')
+
+class AnimatedOverlay:
+    def __init__(self): self.frames = []
