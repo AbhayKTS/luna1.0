@@ -2585,3 +2585,5 @@ class AnimatedOverlay:
 
 class ThemeEngine:
     def __init__(self): self.themes = {}
+
+# Updated features
