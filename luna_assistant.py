@@ -2596,3 +2596,6 @@ class WeatherService:
 
 class CalendarService:
     def __init__(self): self.events = []
+
+class MusicServiceAdapter:
+    def __init__(self): self.service = ''
