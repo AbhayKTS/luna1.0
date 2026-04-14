@@ -3080,3 +3080,6 @@ class PredictionCache:
     def __init__(self): self.cache = {}
 
 # ML Models Documentation
+
+class InferenceAPI:
+    def predict(self, data): pass
