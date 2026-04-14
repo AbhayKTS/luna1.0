@@ -2593,3 +2593,6 @@ class OAuth2Client:
 
 class WeatherService:
     def __init__(self): self.api_key = ''
+
+class CalendarService:
+    def __init__(self): self.events = []
