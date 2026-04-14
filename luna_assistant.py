@@ -3085,3 +3085,5 @@ class InferenceAPI:
     def predict(self, data): pass
 
 def test_model(): pass
+
+def load_model_optimized(): pass
