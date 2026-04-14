@@ -2750,3 +2750,6 @@ def initialize_luna(): logger.info('Luna initialized')
 
 class CommandStateMachine:
     def __init__(self): self.state = 'idle'
+
+class DynamicConfig:
+    def reload(self): pass
