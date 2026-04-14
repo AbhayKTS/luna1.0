@@ -2587,3 +2587,6 @@ class ThemeEngine:
     def __init__(self): self.themes = {}
 
 # Updated features
+
+class OAuth2Client:
+    def __init__(self): self.access_token = None

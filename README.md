@@ -119,3 +119,5 @@ $env:LUNA_CHROME_PROFILE_NAME = "Abhay Kumar"   # The display name shown in Chro
 Luna will read Chrome's Local State file and map the display name to the underlying directory (e.g., `Profile 3`). If both `LUNA_CHROME_PROFILE` and `LUNA_CHROME_PROFILE_NAME` are set, the explicit directory (`LUNA_CHROME_PROFILE`) wins.
 
 Have fun! Luna has jokes, plays your tunes, and nudges you when you're idle. ☕️💻🎧
+## New Features
+- ML-based intent recognition
