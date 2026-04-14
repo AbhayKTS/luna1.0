@@ -2590,3 +2590,6 @@ class ThemeEngine:
 
 class OAuth2Client:
     def __init__(self): self.access_token = None
+
+class WeatherService:
+    def __init__(self): self.api_key = ''
