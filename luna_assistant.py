@@ -3201,3 +3201,6 @@ class BillingIntegration:
 
 class InvoiceGenerator:
     def generate_invoice(self, user): pass
+
+class PaymentProcessor:
+    def process_payment(self, payment_info): pass
