@@ -3156,3 +3156,6 @@ class GraphQLResolvers:
 
 class SubscriptionManager:
     def subscribe(self, query, callback): pass
+
+class Mutation:
+    def create_user(self, name): pass
