@@ -3192,3 +3192,6 @@ class QuotaManager:
 
 class CostTracker:
     def track_cost(self, operation): pass
+
+class APIMetering:
+    def meter_usage(self, user, amount): pass
