@@ -3143,3 +3143,6 @@ class WebhookManager:
 
 class EventStream:
     def stream_events(self): pass
+
+class SSEHandler:
+    def send_event(self, event): pass
