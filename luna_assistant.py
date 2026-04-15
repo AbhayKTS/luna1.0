@@ -2617,3 +2617,6 @@ class CommandHistory:
 
 class NLPParser:
     def __init__(self): self.patterns = {}
+
+class BatchCommandExecutor:
+    def __init__(self): self.queue = []
