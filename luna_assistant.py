@@ -3113,3 +3113,6 @@ class AuthMiddleware:
 import jwt
 class JWTTokenizer:
     def generate_token(self, payload): pass
+
+class TokenRefresher:
+    def refresh(self, token): pass
