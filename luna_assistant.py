@@ -3103,3 +3103,6 @@ class ErrorMiddleware:
 
 class RequestLogger:
     def log_request(self, req): pass
+
+class CORSMiddleware:
+    def handle_cors(self, request): pass
