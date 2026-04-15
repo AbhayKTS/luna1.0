@@ -3119,3 +3119,6 @@ class TokenRefresher:
 
 class APIVersionManager:
     def __init__(self): self.versions = {}
+
+class Paginator:
+    def paginate(self, items, page, size): pass
