@@ -2614,3 +2614,6 @@ class MacroSystem:
 
 class CommandHistory:
     def __init__(self): self.history = []
+
+class NLPParser:
+    def __init__(self): self.patterns = {}
