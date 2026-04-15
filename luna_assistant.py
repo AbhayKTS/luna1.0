@@ -3177,3 +3177,6 @@ class ProgressTracker:
 
 class ResumableUpload:
     def resume(self, session_id): pass
+
+class CompressionHandler:
+    def compress(self, data): pass
