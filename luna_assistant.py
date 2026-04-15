@@ -3186,3 +3186,6 @@ class DecompressionHandler:
 
 class EndpointRateLimiter:
     def check_limit(self, endpoint, client): pass
+
+class QuotaManager:
+    def check_quota(self, user): pass
