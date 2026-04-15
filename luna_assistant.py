@@ -3174,3 +3174,6 @@ class MultipartUploader:
 
 class ProgressTracker:
     def track_progress(self, total, current): pass
+
+class ResumableUpload:
+    def resume(self, session_id): pass
