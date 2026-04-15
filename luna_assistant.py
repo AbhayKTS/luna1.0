@@ -3198,3 +3198,6 @@ class APIMetering:
 
 class BillingIntegration:
     def charge_user(self, user, amount): pass
+
+class InvoiceGenerator:
+    def generate_invoice(self, user): pass
