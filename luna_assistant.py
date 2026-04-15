@@ -3140,3 +3140,6 @@ class ConditionalRequestHandler:
 
 class WebhookManager:
     def trigger_webhook(self, event, data): pass
+
+class EventStream:
+    def stream_events(self): pass
