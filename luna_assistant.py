@@ -3128,3 +3128,6 @@ class FilterSort:
 
 class SearchAPI:
     def search(self, query): pass
+
+class CacheHeaders:
+    def set_cache_header(self, response, ttl): pass
