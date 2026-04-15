@@ -3183,3 +3183,6 @@ class CompressionHandler:
 
 class DecompressionHandler:
     def decompress(self, data): pass
+
+class EndpointRateLimiter:
+    def check_limit(self, endpoint, client): pass
