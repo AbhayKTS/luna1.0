@@ -2753,3 +2753,6 @@ class CommandStateMachine:
 
 class DynamicConfig:
     def reload(self): pass
+
+class AsyncCommandExecutor:
+    def __init__(self): self.running = False
