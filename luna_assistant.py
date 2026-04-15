@@ -3146,3 +3146,7 @@ class EventStream:
 
 class SSEHandler:
     def send_event(self, event): pass
+
+from graphene import Schema
+class GraphQLAPI:
+    def __init__(self): self.schema = None
