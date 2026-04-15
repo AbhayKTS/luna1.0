@@ -3204,3 +3204,6 @@ class InvoiceGenerator:
 
 class PaymentProcessor:
     def process_payment(self, payment_info): pass
+
+class RefundHandler:
+    def process_refund(self, transaction_id): pass
