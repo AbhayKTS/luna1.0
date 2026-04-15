@@ -3097,3 +3097,6 @@ class RequestValidator:
 
 class ResponseSerializer:
     def serialize(self, obj): pass
+
+class ErrorMiddleware:
+    def handle_error(self, error): pass
