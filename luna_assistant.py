@@ -3159,3 +3159,6 @@ class SubscriptionManager:
 
 class Mutation:
     def create_user(self, name): pass
+
+class BatchOperations:
+    def batch_create(self, items): pass
