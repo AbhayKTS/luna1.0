@@ -3171,3 +3171,6 @@ class FileStreamer:
 
 class MultipartUploader:
     def upload_chunk(self, chunk): pass
+
+class ProgressTracker:
+    def track_progress(self, total, current): pass
