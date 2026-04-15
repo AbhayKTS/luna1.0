@@ -3165,3 +3165,6 @@ class BatchOperations:
 
 class BulkUploader:
     def upload_batch(self, file): pass
+
+class FileStreamer:
+    def stream_file(self, file_path): pass
