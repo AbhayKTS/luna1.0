@@ -3106,3 +3106,6 @@ class RequestLogger:
 
 class CORSMiddleware:
     def handle_cors(self, request): pass
+
+class AuthMiddleware:
+    def authenticate(self, token): pass
