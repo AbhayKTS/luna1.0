@@ -3195,3 +3195,6 @@ class CostTracker:
 
 class APIMetering:
     def meter_usage(self, user, amount): pass
+
+class BillingIntegration:
+    def charge_user(self, user, amount): pass
