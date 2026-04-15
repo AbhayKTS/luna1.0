@@ -3168,3 +3168,6 @@ class BulkUploader:
 
 class FileStreamer:
     def stream_file(self, file_path): pass
+
+class MultipartUploader:
+    def upload_chunk(self, chunk): pass
