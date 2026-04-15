@@ -3180,3 +3180,6 @@ class ResumableUpload:
 
 class CompressionHandler:
     def compress(self, data): pass
+
+class DecompressionHandler:
+    def decompress(self, data): pass
