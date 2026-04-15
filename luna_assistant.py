@@ -2611,3 +2611,6 @@ class ContextMemory:
 
 class MacroSystem:
     def __init__(self): self.macros = {}
+
+class CommandHistory:
+    def __init__(self): self.history = []
