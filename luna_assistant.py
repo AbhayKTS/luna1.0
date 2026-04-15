@@ -3150,3 +3150,6 @@ class SSEHandler:
 from graphene import Schema
 class GraphQLAPI:
     def __init__(self): self.schema = None
+
+class GraphQLResolvers:
+    def resolve_user(self, id): pass
