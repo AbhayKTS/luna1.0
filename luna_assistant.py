@@ -2608,3 +2608,6 @@ class PreferenceLearner:
 
 class ContextMemory:
     def __init__(self): self.memory = []
+
+class MacroSystem:
+    def __init__(self): self.macros = {}
