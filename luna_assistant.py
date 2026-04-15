@@ -3125,3 +3125,6 @@ class Paginator:
 
 class FilterSort:
     def apply_filters(self, data, filters): pass
+
+class SearchAPI:
+    def search(self, query): pass
