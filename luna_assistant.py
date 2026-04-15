@@ -3134,3 +3134,6 @@ class CacheHeaders:
 
 class ETagManager:
     def generate_etag(self, content): pass
+
+class ConditionalRequestHandler:
+    def handle_if_none_match(self, req): pass
