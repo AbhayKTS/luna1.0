@@ -2626,3 +2626,6 @@ class AnalyticsDashboard:
 
 class TaskScheduler:
     def __init__(self): self.tasks = {}
+
+class ActivityDashboard:
+    def __init__(self): self.activities = []
