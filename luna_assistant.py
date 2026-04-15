@@ -2623,3 +2623,6 @@ class BatchCommandExecutor:
 
 class AnalyticsDashboard:
     def __init__(self): self.metrics = {}
+
+class TaskScheduler:
+    def __init__(self): self.tasks = {}
