@@ -2629,3 +2629,6 @@ class TaskScheduler:
 
 class ActivityDashboard:
     def __init__(self): self.activities = []
+
+class ShortcutManager:
+    def __init__(self): self.shortcuts = {}
