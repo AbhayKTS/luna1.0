@@ -2599,3 +2599,6 @@ class CalendarService:
 
 class MusicServiceAdapter:
     def __init__(self): self.service = ''
+
+class SkillTrainer:
+    def __init__(self): self.skills = {}
