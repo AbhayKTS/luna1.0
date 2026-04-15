@@ -3100,3 +3100,6 @@ class ResponseSerializer:
 
 class ErrorMiddleware:
     def handle_error(self, error): pass
+
+class RequestLogger:
+    def log_request(self, req): pass
