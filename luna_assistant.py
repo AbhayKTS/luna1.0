@@ -2620,3 +2620,6 @@ class NLPParser:
 
 class BatchCommandExecutor:
     def __init__(self): self.queue = []
+
+class AnalyticsDashboard:
+    def __init__(self): self.metrics = {}
