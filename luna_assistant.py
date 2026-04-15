@@ -3137,3 +3137,6 @@ class ETagManager:
 
 class ConditionalRequestHandler:
     def handle_if_none_match(self, req): pass
+
+class WebhookManager:
+    def trigger_webhook(self, event, data): pass
