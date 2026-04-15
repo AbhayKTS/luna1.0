@@ -3116,3 +3116,6 @@ class JWTTokenizer:
 
 class TokenRefresher:
     def refresh(self, token): pass
+
+class APIVersionManager:
+    def __init__(self): self.versions = {}
