@@ -3189,3 +3189,6 @@ class EndpointRateLimiter:
 
 class QuotaManager:
     def check_quota(self, user): pass
+
+class CostTracker:
+    def track_cost(self, operation): pass
