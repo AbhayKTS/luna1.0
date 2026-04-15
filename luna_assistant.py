@@ -2605,3 +2605,6 @@ class SkillTrainer:
 
 class PreferenceLearner:
     def __init__(self): self.preferences = {}
+
+class ContextMemory:
+    def __init__(self): self.memory = []
