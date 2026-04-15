@@ -3131,3 +3131,6 @@ class SearchAPI:
 
 class CacheHeaders:
     def set_cache_header(self, response, ttl): pass
+
+class ETagManager:
+    def generate_etag(self, content): pass
