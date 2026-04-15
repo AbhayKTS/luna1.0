@@ -2602,3 +2602,6 @@ class MusicServiceAdapter:
 
 class SkillTrainer:
     def __init__(self): self.skills = {}
+
+class PreferenceLearner:
+    def __init__(self): self.preferences = {}
