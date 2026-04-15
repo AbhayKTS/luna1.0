@@ -3153,3 +3153,6 @@ class GraphQLAPI:
 
 class GraphQLResolvers:
     def resolve_user(self, id): pass
+
+class SubscriptionManager:
+    def subscribe(self, query, callback): pass
