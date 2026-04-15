@@ -3122,3 +3122,6 @@ class APIVersionManager:
 
 class Paginator:
     def paginate(self, items, page, size): pass
+
+class FilterSort:
+    def apply_filters(self, data, filters): pass
