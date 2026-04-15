@@ -3094,3 +3094,6 @@ class APIServer:
 
 class RequestValidator:
     def validate_input(self, data, schema): pass
+
+class ResponseSerializer:
+    def serialize(self, obj): pass
