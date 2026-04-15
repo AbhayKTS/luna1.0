@@ -3162,3 +3162,6 @@ class Mutation:
 
 class BatchOperations:
     def batch_create(self, items): pass
+
+class BulkUploader:
+    def upload_batch(self, file): pass
