@@ -3109,3 +3109,7 @@ class CORSMiddleware:
 
 class AuthMiddleware:
     def authenticate(self, token): pass
+
+import jwt
+class JWTTokenizer:
+    def generate_token(self, payload): pass
