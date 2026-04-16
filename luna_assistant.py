@@ -2635,3 +2635,6 @@ class ShortcutManager:
 
 class I18nManager:
     def __init__(self): self.translations = {}
+
+class ResponseTemplate:
+    def __init__(self): self.templates = {}
