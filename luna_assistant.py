@@ -2632,3 +2632,6 @@ class ActivityDashboard:
 
 class ShortcutManager:
     def __init__(self): self.shortcuts = {}
+
+class I18nManager:
+    def __init__(self): self.translations = {}
