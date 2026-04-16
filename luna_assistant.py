@@ -3207,3 +3207,6 @@ class PaymentProcessor:
 
 class RefundHandler:
     def process_refund(self, transaction_id): pass
+
+class MigrationManager:
+    def run_migration(self): pass
