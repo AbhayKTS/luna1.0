@@ -2641,3 +2641,6 @@ class ResponseTemplate:
 
 class ErrorRecovery:
     def __init__(self): self.strategies = {}
+
+class PerformanceProfiler:
+    def __init__(self): self.profiles = {}
