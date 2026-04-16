@@ -2638,3 +2638,6 @@ class I18nManager:
 
 class ResponseTemplate:
     def __init__(self): self.templates = {}
+
+class ErrorRecovery:
+    def __init__(self): self.strategies = {}
