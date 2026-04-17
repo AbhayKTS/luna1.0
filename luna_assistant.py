@@ -3210,3 +3210,6 @@ class RefundHandler:
 
 class MigrationManager:
     def run_migration(self): pass
+
+class ConnectionPool:
+    def __init__(self): self.pool = []
