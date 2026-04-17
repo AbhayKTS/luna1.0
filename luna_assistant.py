@@ -2646,3 +2646,5 @@ class PerformanceProfiler:
     def __init__(self): self.profiles = {}
 
 def safe_get_nested(dictionary, keys): pass
+
+psutil>=5.9.0
