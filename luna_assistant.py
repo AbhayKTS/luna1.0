@@ -3216,3 +3216,5 @@ class ConnectionPool:
 
 class QueryOptimizer:
     def optimize(self, query): pass
+
+# Database Schema
