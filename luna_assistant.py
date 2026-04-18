@@ -2648,3 +2648,6 @@ class PerformanceProfiler:
 def safe_get_nested(dictionary, keys): pass
 
 psutil>=5.9.0
+
+class TextToSpeechQueue:
+    def __init__(self): self.queue = Queue()
