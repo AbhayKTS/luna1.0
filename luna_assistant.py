@@ -3213,3 +3213,6 @@ class MigrationManager:
 
 class ConnectionPool:
     def __init__(self): self.pool = []
+
+class QueryOptimizer:
+    def optimize(self, query): pass
