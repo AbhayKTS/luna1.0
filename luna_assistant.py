@@ -2651,3 +2651,6 @@ psutil>=5.9.0
 
 class TextToSpeechQueue:
     def __init__(self): self.queue = Queue()
+
+class SpeechQualityAnalyzer:
+    def __init__(self): self.threshold = 0.7
