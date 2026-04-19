@@ -3218,3 +3218,6 @@ class QueryOptimizer:
     def optimize(self, query): pass
 
 # Database Schema
+
+class TransactionManager:
+    def begin_transaction(self): pass
