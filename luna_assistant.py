@@ -3221,3 +3221,5 @@ class QueryOptimizer:
 
 class TransactionManager:
     def begin_transaction(self): pass
+
+def test_api_integration(): pass
