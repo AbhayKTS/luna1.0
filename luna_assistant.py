@@ -2654,3 +2654,5 @@ class TextToSpeechQueue:
 
 class SpeechQualityAnalyzer:
     def __init__(self): self.threshold = 0.7
+
+CONFIG_DEFAULTS = {'voice': 'female'}
