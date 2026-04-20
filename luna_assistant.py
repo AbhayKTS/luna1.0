@@ -3242,3 +3242,6 @@ class SchemaInferrer:
 
 class DataQualityChecker:
     def check_null_values(self, data): pass
+
+class DataProfiler:
+    def profile(self, data): pass
