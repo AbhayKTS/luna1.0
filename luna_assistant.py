@@ -3345,3 +3345,6 @@ class SemanticAnalyzer:
 
 class AspectExtractor:
     def extract(self, text): pass
+
+class OpinionMiner:
+    def mine_opinions(self, text): pass
