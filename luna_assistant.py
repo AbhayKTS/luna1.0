@@ -3355,3 +3355,6 @@ class TopicModeler:
 
 class DocumentClusterer:
     def cluster(self, documents): pass
+
+class SimilarityComputer:
+    def compute_similarity(self, doc1, doc2): pass
