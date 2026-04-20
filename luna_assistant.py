@@ -3251,3 +3251,6 @@ class AnomalyDetector:
 
 class OutlierRemover:
     def remove_outliers(self, data): pass
+
+class DataStandardizer:
+    def standardize(self, data): pass
