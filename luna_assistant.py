@@ -3314,3 +3314,6 @@ class ARIMAModel:
 
 class ExponentialSmoothingModel:
     def fit(self, data): pass
+
+class CausalInference:
+    def estimate_treatment_effect(self, data): pass
