@@ -3239,3 +3239,6 @@ class DataValidator:
 
 class SchemaInferrer:
     def infer(self, data): pass
+
+class DataQualityChecker:
+    def check_null_values(self, data): pass
