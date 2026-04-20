@@ -3307,3 +3307,7 @@ class TimeSeriesAnalyzer:
 
 class TimeSeriesForecaster:
     def forecast(self, series, steps): pass
+
+from statsmodels.tsa.arima.model import ARIMA
+class ARIMAModel:
+    def fit(self, data): pass
