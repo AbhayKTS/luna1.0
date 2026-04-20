@@ -3266,3 +3266,7 @@ class FeatureSelector:
 
 class DimensionalityReducer:
     def reduce(self, X): pass
+
+from sklearn.decomposition import PCA
+class PCAReducer:
+    def __init__(self): self.pca = PCA()
