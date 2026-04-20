@@ -3286,3 +3286,7 @@ class ClusterAnalyzer:
 from scipy.cluster.hierarchy import dendrogram
 class HierarchicalClusterer:
     def cluster(self, data): pass
+
+from sklearn.cluster import DBSCAN
+class DBSCANClusterer:
+    def cluster(self, data): pass
