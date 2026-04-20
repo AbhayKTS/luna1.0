@@ -3327,3 +3327,6 @@ class TextAnalytics:
 
 class Tokenizer:
     def tokenize(self, text): pass
+
+class StemmerLemmatizer:
+    def stem(self, word): pass
