@@ -3300,3 +3300,7 @@ class HypothesisTester:
 
 class CorrelationAnalyzer:
     def compute_correlation(self, X): pass
+
+import pandas as pd
+class TimeSeriesAnalyzer:
+    def decompose(self, series): pass
