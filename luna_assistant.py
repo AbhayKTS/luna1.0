@@ -3297,3 +3297,6 @@ class StatisticalAnalyzer:
 
 class HypothesisTester:
     def ttest(self, group1, group2): pass
+
+class CorrelationAnalyzer:
+    def compute_correlation(self, X): pass
