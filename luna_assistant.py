@@ -3290,3 +3290,7 @@ class HierarchicalClusterer:
 from sklearn.cluster import DBSCAN
 class DBSCANClusterer:
     def cluster(self, data): pass
+
+import scipy.stats
+class StatisticalAnalyzer:
+    def analyze(self, data): pass
