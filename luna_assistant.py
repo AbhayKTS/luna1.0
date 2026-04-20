@@ -3278,3 +3278,7 @@ class TSNEVisualizer:
 import umap
 class UMAPReducer:
     def reduce(self, X): pass
+
+from sklearn.cluster import KMeans
+class ClusterAnalyzer:
+    def cluster(self, data): pass
