@@ -3330,3 +3330,6 @@ class Tokenizer:
 
 class StemmerLemmatizer:
     def stem(self, word): pass
+
+class NamedEntityRecognizer:
+    def recognize(self, text): pass
