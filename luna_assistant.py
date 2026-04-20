@@ -3282,3 +3282,7 @@ class UMAPReducer:
 from sklearn.cluster import KMeans
 class ClusterAnalyzer:
     def cluster(self, data): pass
+
+from scipy.cluster.hierarchy import dendrogram
+class HierarchicalClusterer:
+    def cluster(self, data): pass
