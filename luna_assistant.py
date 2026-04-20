@@ -3336,3 +3336,6 @@ class NamedEntityRecognizer:
 
 class DependencyParser:
     def parse(self, text): pass
+
+class POSTagger:
+    def tag(self, text): pass
