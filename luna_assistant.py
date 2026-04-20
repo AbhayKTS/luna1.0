@@ -3270,3 +3270,7 @@ class DimensionalityReducer:
 from sklearn.decomposition import PCA
 class PCAReducer:
     def __init__(self): self.pca = PCA()
+
+from sklearn.manifold import TSNE
+class TSNEVisualizer:
+    def visualize(self, X): pass
