@@ -3311,3 +3311,6 @@ class TimeSeriesForecaster:
 from statsmodels.tsa.arima.model import ARIMA
 class ARIMAModel:
     def fit(self, data): pass
+
+class ExponentialSmoothingModel:
+    def fit(self, data): pass
