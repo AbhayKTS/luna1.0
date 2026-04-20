@@ -3236,3 +3236,6 @@ class ETLPipeline:
 
 class DataValidator:
     def validate(self, data, schema): pass
+
+class SchemaInferrer:
+    def infer(self, data): pass
