@@ -3233,3 +3233,6 @@ class ETLPipeline:
     def extract(self): pass
     def transform(self, data): pass
     def load(self, data): pass
+
+class DataValidator:
+    def validate(self, data, schema): pass
