@@ -3317,3 +3317,6 @@ class ExponentialSmoothingModel:
 
 class CausalInference:
     def estimate_treatment_effect(self, data): pass
+
+class PropensityScorer:
+    def compute_score(self, X, treatment): pass
