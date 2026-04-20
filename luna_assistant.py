@@ -3324,3 +3324,6 @@ class PropensityScorer:
 import nltk
 class TextAnalytics:
     def analyze(self, text): pass
+
+class Tokenizer:
+    def tokenize(self, text): pass
