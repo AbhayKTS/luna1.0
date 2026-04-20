@@ -3294,3 +3294,6 @@ class DBSCANClusterer:
 import scipy.stats
 class StatisticalAnalyzer:
     def analyze(self, data): pass
+
+class HypothesisTester:
+    def ttest(self, group1, group2): pass
