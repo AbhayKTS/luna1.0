@@ -3260,3 +3260,6 @@ class DataNormalizer:
 
 class FeatureEngineer:
     def create_features(self, data): pass
+
+class FeatureSelector:
+    def select_features(self, X, y): pass
