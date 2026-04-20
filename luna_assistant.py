@@ -3352,3 +3352,6 @@ class OpinionMiner:
 from sklearn.decomposition import LatentDirichletAllocation
 class TopicModeler:
     def model_topics(self, documents): pass
+
+class DocumentClusterer:
+    def cluster(self, documents): pass
