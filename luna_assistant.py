@@ -3304,3 +3304,6 @@ class CorrelationAnalyzer:
 import pandas as pd
 class TimeSeriesAnalyzer:
     def decompose(self, series): pass
+
+class TimeSeriesForecaster:
+    def forecast(self, series, steps): pass
