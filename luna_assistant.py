@@ -3254,3 +3254,6 @@ class OutlierRemover:
 
 class DataStandardizer:
     def standardize(self, data): pass
+
+class DataNormalizer:
+    def normalize(self, data): pass
