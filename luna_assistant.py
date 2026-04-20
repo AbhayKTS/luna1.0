@@ -3274,3 +3274,7 @@ class PCAReducer:
 from sklearn.manifold import TSNE
 class TSNEVisualizer:
     def visualize(self, X): pass
+
+import umap
+class UMAPReducer:
+    def reduce(self, X): pass
