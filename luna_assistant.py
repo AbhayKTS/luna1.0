@@ -3248,3 +3248,6 @@ class DataProfiler:
 
 class AnomalyDetector:
     def detect(self, data): pass
+
+class OutlierRemover:
+    def remove_outliers(self, data): pass
