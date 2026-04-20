@@ -3320,3 +3320,7 @@ class CausalInference:
 
 class PropensityScorer:
     def compute_score(self, X, treatment): pass
+
+import nltk
+class TextAnalytics:
+    def analyze(self, text): pass
