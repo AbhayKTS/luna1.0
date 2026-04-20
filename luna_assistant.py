@@ -3245,3 +3245,6 @@ class DataQualityChecker:
 
 class DataProfiler:
     def profile(self, data): pass
+
+class AnomalyDetector:
+    def detect(self, data): pass
