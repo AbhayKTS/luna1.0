@@ -3223,3 +3223,6 @@ class TransactionManager:
     def begin_transaction(self): pass
 
 def test_api_integration(): pass
+
+class MonitoringDashboard:
+    def display(): pass
