@@ -3257,3 +3257,6 @@ class DataStandardizer:
 
 class DataNormalizer:
     def normalize(self, data): pass
+
+class FeatureEngineer:
+    def create_features(self, data): pass
