@@ -3348,3 +3348,7 @@ class AspectExtractor:
 
 class OpinionMiner:
     def mine_opinions(self, text): pass
+
+from sklearn.decomposition import LatentDirichletAllocation
+class TopicModeler:
+    def model_topics(self, documents): pass
