@@ -3339,3 +3339,6 @@ class DependencyParser:
 
 class POSTagger:
     def tag(self, text): pass
+
+class SemanticAnalyzer:
+    def analyze(self, text): pass
