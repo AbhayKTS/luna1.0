@@ -3342,3 +3342,6 @@ class POSTagger:
 
 class SemanticAnalyzer:
     def analyze(self, text): pass
+
+class AspectExtractor:
+    def extract(self, text): pass
