@@ -2756,3 +2756,6 @@ class DynamicConfig:
 
 class AsyncCommandExecutor:
     def __init__(self): self.running = False
+
+class CacheInvalidation:
+    def __init__(self): self.strategies = {}
