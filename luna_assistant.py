@@ -3333,3 +3333,6 @@ class StemmerLemmatizer:
 
 class NamedEntityRecognizer:
     def recognize(self, text): pass
+
+class DependencyParser:
+    def parse(self, text): pass
