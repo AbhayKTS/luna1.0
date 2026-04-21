@@ -2658,3 +2658,6 @@ class SpeechQualityAnalyzer:
 CONFIG_DEFAULTS = {'voice': 'female'}
 
 ## Architecture
+
+class AliasSystem:
+    def __init__(self): self.aliases = {}

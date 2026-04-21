@@ -121,3 +121,7 @@ Luna will read Chrome's Local State file and map the display name to the underly
 Have fun! Luna has jokes, plays your tunes, and nudges you when you're idle. ☕️💻🎧
 ## New Features
 - ML-based intent recognition
+
+### Components
+- Speech Engine
+- Intent Classifier
