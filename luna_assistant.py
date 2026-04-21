@@ -2661,3 +2661,6 @@ CONFIG_DEFAULTS = {'voice': 'female'}
 
 class AliasSystem:
     def __init__(self): self.aliases = {}
+
+class FallbackManager:
+    def __init__(self): pass
