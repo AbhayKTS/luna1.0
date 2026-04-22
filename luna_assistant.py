@@ -3361,3 +3361,6 @@ class SimilarityComputer:
 
 class Visualizer:
     def plot(self, data): pass
+
+class ReportGenerator:
+    def generate(self, data): pass
