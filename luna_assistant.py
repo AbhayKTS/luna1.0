@@ -3358,3 +3358,6 @@ class DocumentClusterer:
 
 class SimilarityComputer:
     def compute_similarity(self, doc1, doc2): pass
+
+class Visualizer:
+    def plot(self, data): pass
