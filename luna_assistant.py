@@ -2664,3 +2664,6 @@ class AliasSystem:
 
 class FallbackManager:
     def __init__(self): pass
+
+class StatisticsCollector:
+    def __init__(self): self.stats = {}
