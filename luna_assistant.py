@@ -2670,3 +2670,6 @@ class StatisticsCollector:
 
 class SessionManager:
     def __init__(self): self.sessions = {}
+
+class ConfidenceReporter:
+    def __init__(self): self.thresholds = {}
