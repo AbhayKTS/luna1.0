@@ -2667,3 +2667,6 @@ class FallbackManager:
 
 class StatisticsCollector:
     def __init__(self): self.stats = {}
+
+class SessionManager:
+    def __init__(self): self.sessions = {}
