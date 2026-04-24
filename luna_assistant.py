@@ -2673,3 +2673,6 @@ class SessionManager:
 
 class ConfidenceReporter:
     def __init__(self): self.thresholds = {}
+
+class RetryManager:
+    def __init__(self): self.max_retries = 3
