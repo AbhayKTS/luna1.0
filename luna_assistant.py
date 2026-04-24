@@ -2676,3 +2676,6 @@ class ConfidenceReporter:
 
 class RetryManager:
     def __init__(self): self.max_retries = 3
+
+class SuggestionEngine:
+    def __init__(self): self.commands = set()
