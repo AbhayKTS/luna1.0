@@ -3366,3 +3366,6 @@ class ReportGenerator:
     def generate(self, data): pass
 
 # Analytics Documentation
+
+class DataExporter:
+    def export_csv(self, data): pass
