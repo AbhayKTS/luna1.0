@@ -3369,3 +3369,5 @@ class ReportGenerator:
 
 class DataExporter:
     def export_csv(self, data): pass
+
+def test_etl_pipeline(): pass
