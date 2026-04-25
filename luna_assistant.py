@@ -3391,3 +3391,7 @@ class TestSuite:
 
 @pytest.fixture
 def sample_data(): return []
+
+from unittest.mock import Mock
+class MockFactory:
+    def create_mock(self): pass
