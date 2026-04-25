@@ -3423,3 +3423,7 @@ class SecurityTest:
 import coverage
 class CoverageReport:
     def generate(self): pass
+
+from mutmut import run_mutations
+class MutationTest:
+    def run(self): pass
