@@ -3384,3 +3384,7 @@ class DataVersioning:
     def version(self, data): pass
 
 # Updated dependencies
+
+import pytest
+class TestSuite:
+    def setup_method(self): pass
