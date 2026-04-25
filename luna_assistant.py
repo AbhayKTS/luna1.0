@@ -3452,3 +3452,6 @@ class CacheTest:
 
 class WorkflowTest:
     def test_workflow(self): pass
+
+class SnapshotTest:
+    def test_snapshot(self): pass
