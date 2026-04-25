@@ -3388,3 +3388,6 @@ class DataVersioning:
 import pytest
 class TestSuite:
     def setup_method(self): pass
+
+@pytest.fixture
+def sample_data(): return []
