@@ -3371,3 +3371,6 @@ class DataExporter:
     def export_csv(self, data): pass
 
 def test_etl_pipeline(): pass
+
+class BackupManager:
+    def backup(self): pass
