@@ -3470,3 +3470,6 @@ class ErrorScenarioTest:
 
 class EdgeCaseTest:
     def test_edge_cases(self): pass
+
+class BoundaryTest:
+    def test_boundaries(self): pass
