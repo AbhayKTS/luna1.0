@@ -3449,3 +3449,6 @@ class DatabaseTest:
 
 class CacheTest:
     def test_hit_rate(self): pass
+
+class WorkflowTest:
+    def test_workflow(self): pass
