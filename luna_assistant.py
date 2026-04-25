@@ -3461,3 +3461,6 @@ class GoldenTest:
 
 class DiffTest:
     def test_diff(self): pass
+
+class InputValidationTest:
+    def test_invalid_input(self): pass
