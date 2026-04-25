@@ -2682,3 +2682,6 @@ class SuggestionEngine:
 
 class ResponseFormatter:
     def format_list(self): pass
+
+class BackgroundTaskRunner:
+    def __init__(self): self.tasks = {}
