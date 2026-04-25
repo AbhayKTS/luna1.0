@@ -2679,3 +2679,6 @@ class RetryManager:
 
 class SuggestionEngine:
     def __init__(self): self.commands = set()
+
+class ResponseFormatter:
+    def format_list(self): pass
