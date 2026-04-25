@@ -3443,3 +3443,6 @@ class A11yTest:
 
 class ContractTest:
     def test_api_contract(self): pass
+
+class DatabaseTest:
+    def test_queries(self): pass
