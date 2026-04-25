@@ -3515,3 +3515,6 @@ class MetricsTest:
 
 class TracingTest:
     def test_traces(self): pass
+
+class ObservabilityTest:
+    def test_observability(self): pass
