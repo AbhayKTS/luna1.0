@@ -3476,3 +3476,6 @@ class BoundaryTest:
 
 class RegressionTest:
     def test_regression(self): pass
+
+class CompatibilityTest:
+    def test_compatibility(self): pass
