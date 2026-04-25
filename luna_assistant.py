@@ -3500,3 +3500,6 @@ class SmokeTest:
 
 class SanityTest:
     def sanity_test(self): pass
+
+class MonitoringTest:
+    def test_monitoring(self): pass
