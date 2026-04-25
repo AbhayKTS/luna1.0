@@ -3398,3 +3398,7 @@ class MockFactory:
 
 @pytest.mark.parametrize
 def test_multiple_inputs(): pass
+
+from faker import Faker
+class TestDataGenerator:
+    def generate(self): pass
