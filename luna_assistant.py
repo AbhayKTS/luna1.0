@@ -3416,3 +3416,6 @@ class LoadTest(HttpUser):
 
 class StressTest:
     def stress(self): pass
+
+class SecurityTest:
+    def test_injection(self): pass
