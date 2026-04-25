@@ -3485,3 +3485,6 @@ class VersionTest:
 
 class DependencyTest:
     def test_dependencies(self): pass
+
+class ConfigurationTest:
+    def test_config(self): pass
