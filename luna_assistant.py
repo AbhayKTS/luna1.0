@@ -3479,3 +3479,6 @@ class RegressionTest:
 
 class CompatibilityTest:
     def test_compatibility(self): pass
+
+class VersionTest:
+    def test_versions(self): pass
