@@ -3458,3 +3458,6 @@ class SnapshotTest:
 
 class GoldenTest:
     def test_golden_output(self): pass
+
+class DiffTest:
+    def test_diff(self): pass
