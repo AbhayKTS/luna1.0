@@ -3433,3 +3433,6 @@ class IntegrationTest:
 
 class E2ETest:
     def test_user_journey(self): pass
+
+class VisualTest:
+    def compare_screenshots(self): pass
