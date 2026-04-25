@@ -3488,3 +3488,6 @@ class DependencyTest:
 
 class ConfigurationTest:
     def test_config(self): pass
+
+class EnvironmentTest:
+    def test_environment(self): pass
