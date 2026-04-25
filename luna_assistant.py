@@ -3455,3 +3455,6 @@ class WorkflowTest:
 
 class SnapshotTest:
     def test_snapshot(self): pass
+
+class GoldenTest:
+    def test_golden_output(self): pass
