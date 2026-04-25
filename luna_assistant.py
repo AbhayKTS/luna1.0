@@ -3512,3 +3512,6 @@ class LoggingTest:
 
 class MetricsTest:
     def test_metrics(self): pass
+
+class TracingTest:
+    def test_traces(self): pass
