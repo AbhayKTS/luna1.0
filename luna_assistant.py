@@ -3446,3 +3446,6 @@ class ContractTest:
 
 class DatabaseTest:
     def test_queries(self): pass
+
+class CacheTest:
+    def test_hit_rate(self): pass
