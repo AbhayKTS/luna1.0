@@ -3509,3 +3509,6 @@ class AlertingTest:
 
 class LoggingTest:
     def test_logs(self): pass
+
+class MetricsTest:
+    def test_metrics(self): pass
