@@ -3419,3 +3419,7 @@ class StressTest:
 
 class SecurityTest:
     def test_injection(self): pass
+
+import coverage
+class CoverageReport:
+    def generate(self): pass
