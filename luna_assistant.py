@@ -3402,3 +3402,7 @@ def test_multiple_inputs(): pass
 from faker import Faker
 class TestDataGenerator:
     def generate(self): pass
+
+from hypothesis import given
+class PropertyTest:
+    @given(integers()) def test_property(self): pass
