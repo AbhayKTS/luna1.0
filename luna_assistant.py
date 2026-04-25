@@ -3494,3 +3494,6 @@ class EnvironmentTest:
 
 class DeploymentTest:
     def test_deployment(self): pass
+
+class SmokeTest:
+    def smoke_test(self): pass
