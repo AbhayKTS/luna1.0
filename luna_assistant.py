@@ -3427,3 +3427,6 @@ class CoverageReport:
 from mutmut import run_mutations
 class MutationTest:
     def run(self): pass
+
+class IntegrationTest:
+    def test_full_flow(self): pass
