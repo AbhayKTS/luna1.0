@@ -3503,3 +3503,6 @@ class SanityTest:
 
 class MonitoringTest:
     def test_monitoring(self): pass
+
+class AlertingTest:
+    def test_alerts(self): pass
