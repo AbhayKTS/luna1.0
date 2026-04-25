@@ -3430,3 +3430,6 @@ class MutationTest:
 
 class IntegrationTest:
     def test_full_flow(self): pass
+
+class E2ETest:
+    def test_user_journey(self): pass
