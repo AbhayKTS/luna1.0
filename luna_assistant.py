@@ -3440,3 +3440,6 @@ class VisualTest:
 from axe_selenium_python import Axe
 class A11yTest:
     def test_accessibility(self): pass
+
+class ContractTest:
+    def test_api_contract(self): pass
