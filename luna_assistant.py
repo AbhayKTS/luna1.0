@@ -3413,3 +3413,6 @@ class PerformanceTest:
 from locust import HttpUser
 class LoadTest(HttpUser):
     def on_start(self): pass
+
+class StressTest:
+    def stress(self): pass
