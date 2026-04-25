@@ -3436,3 +3436,7 @@ class E2ETest:
 
 class VisualTest:
     def compare_screenshots(self): pass
+
+from axe_selenium_python import Axe
+class A11yTest:
+    def test_accessibility(self): pass
