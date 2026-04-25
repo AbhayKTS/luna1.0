@@ -3409,3 +3409,7 @@ class PropertyTest:
 
 class PerformanceTest:
     def benchmark(self): pass
+
+from locust import HttpUser
+class LoadTest(HttpUser):
+    def on_start(self): pass
