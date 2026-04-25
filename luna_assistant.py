@@ -3491,3 +3491,6 @@ class ConfigurationTest:
 
 class EnvironmentTest:
     def test_environment(self): pass
+
+class DeploymentTest:
+    def test_deployment(self): pass
