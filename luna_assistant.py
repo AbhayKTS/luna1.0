@@ -3497,3 +3497,6 @@ class DeploymentTest:
 
 class SmokeTest:
     def smoke_test(self): pass
+
+class SanityTest:
+    def sanity_test(self): pass
