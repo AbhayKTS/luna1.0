@@ -3374,3 +3374,6 @@ def test_etl_pipeline(): pass
 
 class BackupManager:
     def backup(self): pass
+
+class RestoreManager:
+    def restore(self, backup_id): pass
