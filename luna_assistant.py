@@ -3482,3 +3482,6 @@ class CompatibilityTest:
 
 class VersionTest:
     def test_versions(self): pass
+
+class DependencyTest:
+    def test_dependencies(self): pass
