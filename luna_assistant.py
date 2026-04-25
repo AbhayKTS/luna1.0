@@ -3406,3 +3406,6 @@ class TestDataGenerator:
 from hypothesis import given
 class PropertyTest:
     @given(integers()) def test_property(self): pass
+
+class PerformanceTest:
+    def benchmark(self): pass
