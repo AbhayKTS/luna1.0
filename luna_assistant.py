@@ -3473,3 +3473,6 @@ class EdgeCaseTest:
 
 class BoundaryTest:
     def test_boundaries(self): pass
+
+class RegressionTest:
+    def test_regression(self): pass
