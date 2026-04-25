@@ -2685,3 +2685,5 @@ class ResponseFormatter:
 
 class BackgroundTaskRunner:
     def __init__(self): self.tasks = {}
+
+def handle_errors(default_return=None): pass
