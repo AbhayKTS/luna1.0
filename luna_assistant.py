@@ -2687,3 +2687,6 @@ class BackgroundTaskRunner:
     def __init__(self): self.tasks = {}
 
 def handle_errors(default_return=None): pass
+
+class VoiceCommandLogger:
+    def __init__(self): self.log_file = Path('')
