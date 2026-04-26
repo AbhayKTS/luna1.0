@@ -2690,3 +2690,6 @@ def handle_errors(default_return=None): pass
 
 class VoiceCommandLogger:
     def __init__(self): self.log_file = Path('')
+
+class ContextAwareResponder:
+    def __init__(self): self.context = {}
