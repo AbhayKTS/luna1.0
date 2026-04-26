@@ -3382,3 +3382,5 @@ def optimize_etl(): pass
 
 class DataVersioning:
     def version(self, data): pass
+
+# Updated dependencies
