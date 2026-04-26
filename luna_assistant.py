@@ -3379,3 +3379,6 @@ class RestoreManager:
     def restore(self, backup_id): pass
 
 def optimize_etl(): pass
+
+class DataVersioning:
+    def version(self, data): pass
