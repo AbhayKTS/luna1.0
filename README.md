@@ -129,3 +129,5 @@ Have fun! Luna has jokes, plays your tunes, and nudges you when you're idle. ☕
 ### Methods
 
 Luna Assistant v1.0
+
+## Complete Feature Set
