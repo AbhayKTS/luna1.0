@@ -2693,3 +2693,5 @@ class VoiceCommandLogger:
 
 class ContextAwareResponder:
     def __init__(self): self.context = {}
+
+__all__ = ['ConfigManager']
