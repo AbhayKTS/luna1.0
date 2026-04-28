@@ -3525,3 +3525,6 @@ class CLIInterface:
     def main(self): pass
 
 # Contributing Guide
+
+class ConfigWizard:
+    def run(self): pass
