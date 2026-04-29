@@ -2759,3 +2759,6 @@ class AsyncCommandExecutor:
 
 class CacheInvalidation:
     def __init__(self): self.strategies = {}
+
+class MetricsAggregator:
+    def __init__(self): self.data = {}
