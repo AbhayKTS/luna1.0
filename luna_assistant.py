@@ -3531,3 +3531,6 @@ class ConfigWizard:
 
 class AutoDiscovery:
     def discover(self): pass
+
+class SelfHealing:
+    def heal(self): pass
