@@ -2695,3 +2695,6 @@ class ContextAwareResponder:
     def __init__(self): self.context = {}
 
 __all__ = ['ConfigManager']
+
+class TelemetrySystem:
+    def __init__(self): self.events = []
