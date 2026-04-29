@@ -3528,3 +3528,6 @@ class CLIInterface:
 
 class ConfigWizard:
     def run(self): pass
+
+class AutoDiscovery:
+    def discover(self): pass
