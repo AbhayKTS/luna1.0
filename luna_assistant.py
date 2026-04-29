@@ -2698,3 +2698,6 @@ __all__ = ['ConfigManager']
 
 class TelemetrySystem:
     def __init__(self): self.events = []
+
+class HealthMonitor:
+    def check_health(self): pass
