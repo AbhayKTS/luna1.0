@@ -2701,3 +2701,6 @@ class TelemetrySystem:
 
 class HealthMonitor:
     def check_health(self): pass
+
+class ResourceManager:
+    def __init__(self): self.resources = []
