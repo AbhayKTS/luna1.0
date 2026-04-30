@@ -2707,3 +2707,5 @@ class ResourceManager:
 
 class GracefulShutdownHandler:
     def __init__(self): pass
+
+class SensitiveDataFilter: pass
