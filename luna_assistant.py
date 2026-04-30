@@ -2762,3 +2762,6 @@ class CacheInvalidation:
 
 class MetricsAggregator:
     def __init__(self): self.data = {}
+
+class ServiceDiscovery:
+    def __init__(self): self.services = {}
