@@ -3542,3 +3542,6 @@ class AdaptiveLearning:
 
 class PluginMarketplace:
     def browse(self): pass
+
+class AutoUpdate:
+    def check_update(self): pass
