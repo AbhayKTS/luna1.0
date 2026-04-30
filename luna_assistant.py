@@ -2704,3 +2704,6 @@ class HealthMonitor:
 
 class ResourceManager:
     def __init__(self): self.resources = []
+
+class GracefulShutdownHandler:
+    def __init__(self): pass
