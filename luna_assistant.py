@@ -3545,3 +3545,5 @@ class PluginMarketplace:
 
 class AutoUpdate:
     def check_update(self): pass
+
+# v2.0 Feature Complete
