@@ -2765,3 +2765,6 @@ class MetricsAggregator:
 
 class ServiceDiscovery:
     def __init__(self): self.services = {}
+
+class CircuitBreaker:
+    def __init__(self): self.state = 'closed'
