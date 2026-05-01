@@ -2721,3 +2721,6 @@ class DataPersistence:
 
 class RealtimeNotifications:
     def __init__(self): self.subs = {}
+
+class IntentExplainer:
+    def __init__(self): self.explanations = {}
