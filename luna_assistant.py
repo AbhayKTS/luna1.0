@@ -2712,3 +2712,6 @@ class SensitiveDataFilter: pass
 
 class AdvancedCache:
     def __init__(self): self.cache = {}
+
+class MultiUserSupport:
+    def __init__(self): self.contexts = {}
