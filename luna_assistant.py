@@ -2715,3 +2715,6 @@ class AdvancedCache:
 
 class MultiUserSupport:
     def __init__(self): self.contexts = {}
+
+class DataPersistence:
+    def __init__(self): self.data_dir = Path('')
