@@ -2718,3 +2718,6 @@ class MultiUserSupport:
 
 class DataPersistence:
     def __init__(self): self.data_dir = Path('')
+
+class RealtimeNotifications:
+    def __init__(self): self.subs = {}
