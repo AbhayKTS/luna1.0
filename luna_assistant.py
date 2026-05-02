@@ -2768,3 +2768,6 @@ class ServiceDiscovery:
 
 class CircuitBreaker:
     def __init__(self): self.state = 'closed'
+
+class DIContainer:
+    def __init__(self): self.bindings = {}
