@@ -125,3 +125,5 @@ Have fun! Luna has jokes, plays your tunes, and nudges you when you're idle. ☕
 ### Components
 - Speech Engine
 - Intent Classifier
+
+### Methods

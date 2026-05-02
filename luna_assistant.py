@@ -2726,3 +2726,5 @@ class IntentExplainer:
     def __init__(self): self.explanations = {}
 
 ## API Documentation
+
+class MockSpeechEngine: pass
