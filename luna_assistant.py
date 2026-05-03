@@ -2731,3 +2731,6 @@ class MockSpeechEngine: pass
 
 class PerformanceBenchmark:
     def __init__(self): self.benchmarks = {}
+
+class ConfigValidator:
+    def __init__(self): self.rules = {}
