@@ -2728,3 +2728,6 @@ class IntentExplainer:
 ## API Documentation
 
 class MockSpeechEngine: pass
+
+class PerformanceBenchmark:
+    def __init__(self): self.benchmarks = {}
