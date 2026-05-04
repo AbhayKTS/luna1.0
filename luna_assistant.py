@@ -2734,3 +2734,6 @@ class PerformanceBenchmark:
 
 class ConfigValidator:
     def __init__(self): self.rules = {}
+
+class DebugMode:
+    def __init__(self): self.enabled = False
