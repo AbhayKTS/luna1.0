@@ -127,3 +127,5 @@ Have fun! Luna has jokes, plays your tunes, and nudges you when you're idle. ☕
 - Intent Classifier
 
 ### Methods
+
+Luna Assistant v1.0
