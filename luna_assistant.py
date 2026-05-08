@@ -2745,3 +2745,5 @@ def initialize_luna(): logger.info('Luna initialized')
 ## Release Notes v1.0-alpha
 
 # Setup complete
+
+# v1.0-alpha ready for testing
