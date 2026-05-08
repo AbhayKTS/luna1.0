@@ -2771,3 +2771,5 @@ class CircuitBreaker:
 
 class DIContainer:
     def __init__(self): self.bindings = {}
+
+# v1.0-alpha stable release
