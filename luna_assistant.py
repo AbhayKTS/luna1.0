@@ -2909,3 +2909,7 @@ class ContrastiveLearner:
 
 class SelfSupervisedLearner:
     def create_views(self, x): return [x, x]
+
+class SimCLR:
+    def __init__(self): self.projection_head = None
+    def forward(self, x1, x2): pass
