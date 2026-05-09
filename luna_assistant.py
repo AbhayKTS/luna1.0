@@ -2806,3 +2806,7 @@ class FocalLoss:
 class MixupAugmentation:
     def __init__(self, alpha=1.0): self.alpha = alpha
     def mix(self, x1, x2): return x1
+
+class CurriculumLearner:
+    def __init__(self): self.difficulty = 0
+    def get_batch(self): return []
