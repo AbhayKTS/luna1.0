@@ -2777,3 +2777,8 @@ class DIContainer:
 from sklearn.feature_extraction.text import TfidfVectorizer
 class TfidfModel:
     def __init__(self): self.vectorizer = TfidfVectorizer(max_features=1000)
+
+from gensim.models import Word2Vec
+class Word2VecModel:
+    def __init__(self): self.model = None
+    def train(self, sentences): self.model = Word2Vec(sentences)
