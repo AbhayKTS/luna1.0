@@ -2873,3 +2873,7 @@ class MetricTracker:
 class CheckpointManager:
     def save(self, model, epoch): pass
     def restore(self): pass
+
+from tensorboard import SummaryWriter
+class TensorBoardLogger:
+    def __init__(self): self.writer = SummaryWriter()
