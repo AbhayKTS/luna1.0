@@ -2885,3 +2885,6 @@ class WandBLogger:
 class DistributedTrainer:
     def __init__(self): self.rank = 0
     def train(self): pass
+
+class DataParallelModel:
+    def __init__(self, model): self.model = model
