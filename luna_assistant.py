@@ -2888,3 +2888,6 @@ class DistributedTrainer:
 
 class DataParallelModel:
     def __init__(self, model): self.model = model
+
+class QuantizationEngine:
+    def quantize(self, model, bits=8): pass
