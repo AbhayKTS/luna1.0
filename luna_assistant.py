@@ -2850,3 +2850,7 @@ class LRScheduler:
 
 class WarmupScheduler:
     def __init__(self, warmup_steps=1000): self.warmup_steps = warmup_steps
+
+class ExponentialMovingAverage:
+    def __init__(self, decay=0.999): self.decay = decay
+    def update(self, value): pass
