@@ -2814,3 +2814,6 @@ class CurriculumLearner:
 class AdversarialTrainer:
     def __init__(self): self.epsilon = 0.03
     def perturb(self, x): return x
+
+class KnowledgeDistillation:
+    def __init__(self, teacher, student): self.teacher = teacher; self.student = student
