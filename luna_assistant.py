@@ -2860,3 +2860,6 @@ class GradientAccumulator:
 
 class MixedPrecisionTrainer:
     def train_step(self, x, y): pass
+
+class WeightDecay:
+    def __init__(self, lambda_wd=0.0001): self.lambda_wd = lambda_wd
