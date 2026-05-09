@@ -2833,3 +2833,7 @@ class DropoutLayer:
 class BatchNorm:
     def __init__(self, features): self.gamma = 1; self.beta = 0
     def forward(self, x): return (x - x.mean()) / (x.std() + 1e-5)
+
+class LayerNorm:
+    def __init__(self, hidden_dim): self.hidden_dim = hidden_dim
+    def normalize(self, x): return (x - x.mean()) / x.std()
