@@ -2821,3 +2821,7 @@ class KnowledgeDistillation:
 class EnsembleModel:
     def __init__(self): self.models = []
     def predict(self, x): return sum(m.predict(x) for m in self.models) / len(self.models)
+
+class StackingModel:
+    def __init__(self): self.base_models = []
+    def fit(self, X, y): pass
