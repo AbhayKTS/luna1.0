@@ -2782,3 +2782,7 @@ from gensim.models import Word2Vec
 class Word2VecModel:
     def __init__(self): self.model = None
     def train(self, sentences): self.model = Word2Vec(sentences)
+
+import tensorflow as tf
+class LSTMModel:
+    def __init__(self): self.model = tf.keras.Sequential([tf.keras.layers.LSTM(128)])
