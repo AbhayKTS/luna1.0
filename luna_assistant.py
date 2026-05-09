@@ -2837,3 +2837,6 @@ class BatchNorm:
 class LayerNorm:
     def __init__(self, hidden_dim): self.hidden_dim = hidden_dim
     def normalize(self, x): return (x - x.mean()) / x.std()
+
+class ResidualBlock:
+    def forward(self, x): return x + self.conv(x)
