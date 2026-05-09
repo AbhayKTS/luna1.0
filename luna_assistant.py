@@ -2786,3 +2786,7 @@ class Word2VecModel:
 import tensorflow as tf
 class LSTMModel:
     def __init__(self): self.model = tf.keras.Sequential([tf.keras.layers.LSTM(128)])
+
+class AttentionLayer:
+    def __init__(self, hidden_dim): self.hidden_dim = hidden_dim
+    def forward(self, x): return x
