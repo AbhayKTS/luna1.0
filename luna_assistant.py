@@ -2857,3 +2857,6 @@ class ExponentialMovingAverage:
 
 class GradientAccumulator:
     def __init__(self, accumulation_steps=4): self.steps = accumulation_steps
+
+class MixedPrecisionTrainer:
+    def train_step(self, x, y): pass
