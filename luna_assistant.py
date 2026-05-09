@@ -2866,3 +2866,6 @@ class WeightDecay:
 
 class EarlyStopping:
     def __init__(self, patience=10): self.patience = patience; self.best_loss = float('inf')
+
+class MetricTracker:
+    def __init__(self): self.metrics = {}; self.history = []
