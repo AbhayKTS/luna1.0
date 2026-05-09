@@ -2863,3 +2863,6 @@ class MixedPrecisionTrainer:
 
 class WeightDecay:
     def __init__(self, lambda_wd=0.0001): self.lambda_wd = lambda_wd
+
+class EarlyStopping:
+    def __init__(self, patience=10): self.patience = patience; self.best_loss = float('inf')
