@@ -2825,3 +2825,7 @@ class EnsembleModel:
 class StackingModel:
     def __init__(self): self.base_models = []
     def fit(self, X, y): pass
+
+class DropoutLayer:
+    def __init__(self, rate=0.5): self.rate = rate
+    def forward(self, x): return x * (1 - self.rate)
