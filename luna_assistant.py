@@ -2794,3 +2794,7 @@ class AttentionLayer:
 class BeamSearchDecoder:
     def __init__(self, beam_width=5): self.beam_width = beam_width
     def decode(self, logits): return logits
+
+class LabelSmoothing:
+    def __init__(self, smoothing=0.1): self.smoothing = smoothing
+    def smooth(self, labels): return labels * (1 - self.smoothing)
