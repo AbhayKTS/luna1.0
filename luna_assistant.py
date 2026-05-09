@@ -2829,3 +2829,7 @@ class StackingModel:
 class DropoutLayer:
     def __init__(self, rate=0.5): self.rate = rate
     def forward(self, x): return x * (1 - self.rate)
+
+class BatchNorm:
+    def __init__(self, features): self.gamma = 1; self.beta = 0
+    def forward(self, x): return (x - x.mean()) / (x.std() + 1e-5)
