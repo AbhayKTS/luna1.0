@@ -2773,3 +2773,7 @@ class DIContainer:
     def __init__(self): self.bindings = {}
 
 # v1.0-alpha stable release
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+class TfidfModel:
+    def __init__(self): self.vectorizer = TfidfVectorizer(max_features=1000)
