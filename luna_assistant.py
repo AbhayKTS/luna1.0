@@ -2843,3 +2843,7 @@ class ResidualBlock:
 
 class GradientClipper:
     def clip(self, gradients, max_norm=1.0): pass
+
+class LRScheduler:
+    def __init__(self): self.step = 0
+    def get_lr(self): return 0.001 * (0.95 ** self.step)
