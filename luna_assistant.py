@@ -2877,3 +2877,7 @@ class CheckpointManager:
 from tensorboard import SummaryWriter
 class TensorBoardLogger:
     def __init__(self): self.writer = SummaryWriter()
+
+import wandb
+class WandBLogger:
+    def log(self, metrics): wandb.log(metrics)
