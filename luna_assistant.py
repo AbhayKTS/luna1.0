@@ -2900,3 +2900,6 @@ class KGEmbedding:
 
 class TripletLoss:
     def __init__(self, margin=1.0): self.margin = margin
+
+class MetricLearner:
+    def learn_distance_metric(self, X, y): pass
