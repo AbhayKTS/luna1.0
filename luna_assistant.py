@@ -2798,3 +2798,7 @@ class BeamSearchDecoder:
 class LabelSmoothing:
     def __init__(self, smoothing=0.1): self.smoothing = smoothing
     def smooth(self, labels): return labels * (1 - self.smoothing)
+
+import torch
+class FocalLoss:
+    def __init__(self, alpha=0.25, gamma=2): self.alpha = alpha; self.gamma = gamma
