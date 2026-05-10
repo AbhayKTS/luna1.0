@@ -2916,3 +2916,6 @@ class SimCLR:
 
 class ModelEvaluator:
     def evaluate(self, model, test_data): pass
+
+class PredictionCache:
+    def __init__(self): self.cache = {}
