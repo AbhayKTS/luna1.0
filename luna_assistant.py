@@ -2913,3 +2913,6 @@ class SelfSupervisedLearner:
 class SimCLR:
     def __init__(self): self.projection_head = None
     def forward(self, x1, x2): pass
+
+class ModelEvaluator:
+    def evaluate(self, model, test_data): pass
