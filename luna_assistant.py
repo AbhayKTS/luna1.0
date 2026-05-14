@@ -2924,3 +2924,5 @@ class PredictionCache:
 
 class InferenceAPI:
     def predict(self, data): pass
+
+def test_model(): pass
