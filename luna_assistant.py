@@ -2932,3 +2932,6 @@ def load_model_optimized(): pass
 class APIServer:
     def __init__(self): self.routes = {}
     def register_route(self, path, handler): pass
+
+class RequestValidator:
+    def validate_input(self, data, schema): pass
